@@ -22,8 +22,7 @@ public class cifrar {
 
     public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException, InvalidKeySpecException, UnsupportedEncodingException, NoSuchProviderException {
         //IMPORTANTE: El texto/datos a cifrar no puede ser mayor que la longitud de la clave
-                    //si fuera mayor habria que cifrar por bloques
-        
+               
 // TODO code application logic here
         //Definimos un texto a cifrar
         String str = "Este es el texto a cifrar";
